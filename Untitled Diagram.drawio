@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-15T21:15:13.523Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="dQO-FzaP4T_99nou38nY" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-15T21:47:22.486Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="JclkTEbQ4u29PpsnG5z2" version="20.8.20" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2794" dy="1562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="13970" dy="7810" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -230,43 +230,40 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="IJ8glEBlVoeCYBbPqMMJ-51" target="IJ8glEBlVoeCYBbPqMMJ-96">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="IJ8glEBlVoeCYBbPqMMJ-51" value="Name and subtitle" style="swimlane;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="340" y="620" width="160" height="400" as="geometry" />
+          <mxGeometry x="280" y="640" width="160" height="400" as="geometry" />
         </mxCell>
         <mxCell id="IJ8glEBlVoeCYBbPqMMJ-52" value="Choose dataset name and subtitle" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="IJ8glEBlVoeCYBbPqMMJ-51">
           <mxGeometry x="20" y="40" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="IJ8glEBlVoeCYBbPqMMJ-51" source="IJ8glEBlVoeCYBbPqMMJ-110" target="IJ8glEBlVoeCYBbPqMMJ-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-110" value="Pull dataset name and subtitle from Pennsieve" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#FFCE9F;gradientColor=#CCCCFF;gradientDirection=south;" vertex="1" parent="IJ8glEBlVoeCYBbPqMMJ-51">
+          <mxGeometry x="20" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-111" value="Optional: Change dataset name or subtitle" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#E6E6E6;gradientColor=none;gradientDirection=south;strokeColor=#666666;" vertex="1" parent="IJ8glEBlVoeCYBbPqMMJ-51">
+          <mxGeometry x="20" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="IJ8glEBlVoeCYBbPqMMJ-57" value="Subject and Sample Structuring" style="swimlane;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="740" y="620" width="440" height="400" as="geometry" />
-        </mxCell>
-        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-61" value="Does dataset have subjects?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="IJ8glEBlVoeCYBbPqMMJ-57">
-          <mxGeometry x="20" y="40" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-63" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="IJ8glEBlVoeCYBbPqMMJ-57" target="IJ8glEBlVoeCYBbPqMMJ-65">
-          <mxGeometry y="-10" relative="1" as="geometry">
-            <mxPoint as="offset" />
-            <mxPoint x="80" y="120" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="80" y="160" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry x="720" y="640" width="540" height="390" as="geometry" />
         </mxCell>
         <mxCell id="IJ8glEBlVoeCYBbPqMMJ-64" value="Organize subjects into pools" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="IJ8glEBlVoeCYBbPqMMJ-57">
           <mxGeometry x="120" y="340" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="IJ8glEBlVoeCYBbPqMMJ-57" source="IJ8glEBlVoeCYBbPqMMJ-65" target="IJ8glEBlVoeCYBbPqMMJ-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="IJ8glEBlVoeCYBbPqMMJ-65" value="Specify dataset subjects" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="IJ8glEBlVoeCYBbPqMMJ-57">
-          <mxGeometry x="120" y="140" width="120" height="40" as="geometry" />
+          <mxGeometry x="20" y="120" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IJ8glEBlVoeCYBbPqMMJ-66" value="Subjects organized into pools?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="IJ8glEBlVoeCYBbPqMMJ-57">
           <mxGeometry x="120" y="220" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-67" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=elbowEdgeStyle;" edge="1" parent="IJ8glEBlVoeCYBbPqMMJ-57" source="IJ8glEBlVoeCYBbPqMMJ-65" target="IJ8glEBlVoeCYBbPqMMJ-66">
+        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-67" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=elbowEdgeStyle;" edge="1" parent="IJ8glEBlVoeCYBbPqMMJ-57" source="IJ8glEBlVoeCYBbPqMMJ-65">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="210" y="250" as="sourcePoint" />
-            <mxPoint x="260" y="200" as="targetPoint" />
+            <mxPoint x="210" y="240" as="sourcePoint" />
+            <mxPoint x="180" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IJ8glEBlVoeCYBbPqMMJ-68" value="Does dataset have samples" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="IJ8glEBlVoeCYBbPqMMJ-57">
@@ -289,18 +286,6 @@
             <mxPoint x="50" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-71" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF0000;" edge="1" parent="IJ8glEBlVoeCYBbPqMMJ-57" source="IJ8glEBlVoeCYBbPqMMJ-66">
-          <mxGeometry x="-0.875" y="10" relative="1" as="geometry">
-            <mxPoint as="offset" />
-            <mxPoint x="90" y="50" as="sourcePoint" />
-            <mxPoint x="300" y="80" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="260" y="260" />
-              <mxPoint x="260" y="80" />
-              <mxPoint x="300" y="80" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="IJ8glEBlVoeCYBbPqMMJ-72" value="Add samples to subjects" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="IJ8glEBlVoeCYBbPqMMJ-57">
           <mxGeometry x="300" y="160" width="120" height="40" as="geometry" />
         </mxCell>
@@ -321,38 +306,86 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="IJ8glEBlVoeCYBbPqMMJ-57" source="IJ8glEBlVoeCYBbPqMMJ-100" target="IJ8glEBlVoeCYBbPqMMJ-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-100" value="Dataset includes subjects/samples" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#E6FFCC;gradientColor=none;" vertex="1" parent="IJ8glEBlVoeCYBbPqMMJ-57">
+          <mxGeometry x="20" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-125" value="&lt;font color=&quot;#000000&quot;&gt;Should the dataset subjects be grouped into pools?&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;gradientColor=none;fillColor=#FFF6ED;" vertex="1" parent="IJ8glEBlVoeCYBbPqMMJ-57">
+          <mxGeometry x="180" y="40" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="IJ8glEBlVoeCYBbPqMMJ-57" source="IJ8glEBlVoeCYBbPqMMJ-100" target="IJ8glEBlVoeCYBbPqMMJ-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="IJ8glEBlVoeCYBbPqMMJ-75" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF0000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-0.875" y="10" relative="1" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="1160" y="700" as="sourcePoint" />
-            <mxPoint x="1220" y="700" as="targetPoint" />
+            <mxPoint x="1140" y="720" as="sourcePoint" />
+            <mxPoint x="1200" y="720" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1210" y="700" />
+              <mxPoint x="1190" y="720" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="IJ8glEBlVoeCYBbPqMMJ-92" value="Primary data organization" style="swimlane;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1220" y="620" width="230" height="400" as="geometry" />
+          <mxGeometry x="1080" y="2180" width="6640" height="4160" as="geometry" />
         </mxCell>
         <mxCell id="IJ8glEBlVoeCYBbPqMMJ-93" value="Choose dataset name and subtitle" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="IJ8glEBlVoeCYBbPqMMJ-92">
-          <mxGeometry x="20" y="40" width="120" height="40" as="geometry" />
+          <mxGeometry x="20" y="80" width="120" height="4660" as="geometry" />
         </mxCell>
         <mxCell id="IJ8glEBlVoeCYBbPqMMJ-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="IJ8glEBlVoeCYBbPqMMJ-96" target="IJ8glEBlVoeCYBbPqMMJ-99">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="595.3157894736844" y="570" as="targetPoint" />
+            <mxPoint x="635.3157894736844" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="IJ8glEBlVoeCYBbPqMMJ-96" target="IJ8glEBlVoeCYBbPqMMJ-100">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="IJ8glEBlVoeCYBbPqMMJ-96">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="700" />
+              <mxPoint x="670" y="700" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="IJ8glEBlVoeCYBbPqMMJ-96" value="&lt;font color=&quot;#000000&quot;&gt;Does the dataset include data collected from subjects and/or samples or is it purely computational models, visualization scripts etc?&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;gradientColor=none;fillColor=#FFF6ED;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="520" y="775" width="160" height="90" as="geometry" />
+          <mxGeometry x="470" y="655" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="IJ8glEBlVoeCYBbPqMMJ-99" value="Purely computational models, visualization scripts etc." style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFCCCC;gradientColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="539.9957894736845" y="700" width="120" height="60" as="geometry" />
+          <mxGeometry x="489.99578947368445" y="560" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-100" value="Dataset includes subjects/samples" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#E6FFCC;gradientColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="699.9957894736845" y="790" width="120" height="60" as="geometry" />
+        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-104" value="Guided Mode Home Page" style="swimlane;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="80" y="640" width="160" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-106" value="Continue an existing dataset on Pennsieve" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#FFCE9F;gradientColor=#CCCCFF;gradientDirection=south;" vertex="1" parent="IJ8glEBlVoeCYBbPqMMJ-104">
+          <mxGeometry x="20" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-107" value="Start a new dataset from scratch" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#97D077;" vertex="1" parent="IJ8glEBlVoeCYBbPqMMJ-104">
+          <mxGeometry x="20" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="IJ8glEBlVoeCYBbPqMMJ-107" target="IJ8glEBlVoeCYBbPqMMJ-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="IJ8glEBlVoeCYBbPqMMJ-106" target="IJ8glEBlVoeCYBbPqMMJ-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="IJ8glEBlVoeCYBbPqMMJ-52" target="IJ8glEBlVoeCYBbPqMMJ-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="IJ8glEBlVoeCYBbPqMMJ-117" target="IJ8glEBlVoeCYBbPqMMJ-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-117" value="&lt;font color=&quot;#000000&quot;&gt;Do folders starting with sub- or pool- exist at the root of the primary, source, or derivative folders?&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;gradientColor=none;fillColor=#FFE6CC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="470" y="915" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="IJ8glEBlVoeCYBbPqMMJ-111" target="IJ8glEBlVoeCYBbPqMMJ-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-119" value="No" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;gradientDirection=south;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="530" y="1040" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-121" value="Yes" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;gradientDirection=south;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="660" y="940" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

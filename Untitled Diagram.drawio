@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-16T18:14:38.453Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="sSMeozSrdbuV9w4uw0YD" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-16T18:25:39.089Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="429lDNIQeC-994n9rZ8F" version="20.8.20" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1695" dy="816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="2402" dy="1388" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -676,7 +676,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IJ8glEBlVoeCYBbPqMMJ-400" value="Code, Protocol, and Docs folder structuring" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="2760" y="640" width="850" height="400" as="geometry" />
+          <mxGeometry x="2760" y="640" width="870" height="400" as="geometry" />
         </mxCell>
         <mxCell id="IJ8glEBlVoeCYBbPqMMJ-452" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#000000;strokeWidth=1;fontColor=#000000;" edge="1" parent="IJ8glEBlVoeCYBbPqMMJ-400" source="IJ8glEBlVoeCYBbPqMMJ-403" target="IJ8glEBlVoeCYBbPqMMJ-406">
           <mxGeometry relative="1" as="geometry" />
@@ -713,7 +713,7 @@
         <mxCell id="IJ8glEBlVoeCYBbPqMMJ-457" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;strokeWidth=1;fontColor=#000000;" edge="1" parent="IJ8glEBlVoeCYBbPqMMJ-400" source="IJ8glEBlVoeCYBbPqMMJ-410" target="IJ8glEBlVoeCYBbPqMMJ-418">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-410" value="&lt;font color=&quot;#000000&quot;&gt;Does the dataset have Code data?&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;gradientColor=none;fillColor=#FFF6ED;" vertex="1" parent="IJ8glEBlVoeCYBbPqMMJ-400">
+        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-410" value="&lt;font color=&quot;#000000&quot;&gt;Does the dataset contain Code data?&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;gradientColor=none;fillColor=#FFF6ED;" vertex="1" parent="IJ8glEBlVoeCYBbPqMMJ-400">
           <mxGeometry x="20" y="40" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IJ8glEBlVoeCYBbPqMMJ-412" value="Yes" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;gradientDirection=south;strokeColor=#82b366;" vertex="1" parent="IJ8glEBlVoeCYBbPqMMJ-400">
@@ -731,13 +731,13 @@
         <mxCell id="IJ8glEBlVoeCYBbPqMMJ-459" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;strokeWidth=1;fontColor=#000000;" edge="1" parent="IJ8glEBlVoeCYBbPqMMJ-400" source="IJ8glEBlVoeCYBbPqMMJ-418" target="IJ8glEBlVoeCYBbPqMMJ-428">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-418" value="&lt;font color=&quot;#000000&quot;&gt;Does the dataset have Code data?&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;gradientColor=none;fillColor=#FFF6ED;" vertex="1" parent="IJ8glEBlVoeCYBbPqMMJ-400">
+        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-418" value="&lt;font color=&quot;#000000&quot;&gt;Does the dataset contain Protocol data?&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;gradientColor=none;fillColor=#FFF6ED;" vertex="1" parent="IJ8glEBlVoeCYBbPqMMJ-400">
           <mxGeometry x="300" y="40" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IJ8glEBlVoeCYBbPqMMJ-419" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;strokeWidth=1;fontColor=#000000;" edge="1" parent="IJ8glEBlVoeCYBbPqMMJ-400" source="IJ8glEBlVoeCYBbPqMMJ-420" target="IJ8glEBlVoeCYBbPqMMJ-436">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-420" value="Dataset subjects are added to a list and can be selected to add or edit subject data for the selected subject" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#97D077;" vertex="1" parent="IJ8glEBlVoeCYBbPqMMJ-400">
+        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-420" value="A UI is created that allows Protocol data to be added/edited/deleted to the Protocol high level folder" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#97D077;" vertex="1" parent="IJ8glEBlVoeCYBbPqMMJ-400">
           <mxGeometry x="300" y="160" width="200" height="70" as="geometry" />
         </mxCell>
         <mxCell id="IJ8glEBlVoeCYBbPqMMJ-450" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#000000;strokeWidth=1;fontColor=#000000;" edge="1" parent="IJ8glEBlVoeCYBbPqMMJ-400" source="IJ8glEBlVoeCYBbPqMMJ-421" target="IJ8glEBlVoeCYBbPqMMJ-406">
@@ -760,7 +760,7 @@
         <mxCell id="IJ8glEBlVoeCYBbPqMMJ-427" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;strokeWidth=1;fontColor=#000000;" edge="1" parent="IJ8glEBlVoeCYBbPqMMJ-400" source="IJ8glEBlVoeCYBbPqMMJ-428" target="IJ8glEBlVoeCYBbPqMMJ-442">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-428" value="&lt;font color=&quot;#000000&quot;&gt;Does the dataset have Code data?&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;gradientColor=none;fillColor=#FFF6ED;" vertex="1" parent="IJ8glEBlVoeCYBbPqMMJ-400">
+        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-428" value="&lt;font color=&quot;#000000&quot;&gt;Does the dataset contain Documentation data?&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;gradientColor=none;fillColor=#FFF6ED;" vertex="1" parent="IJ8glEBlVoeCYBbPqMMJ-400">
           <mxGeometry x="580" y="40" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IJ8glEBlVoeCYBbPqMMJ-430" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;strokeWidth=1;fontColor=#000000;" edge="1" parent="IJ8glEBlVoeCYBbPqMMJ-400" source="IJ8glEBlVoeCYBbPqMMJ-431" target="IJ8glEBlVoeCYBbPqMMJ-432">
@@ -769,7 +769,7 @@
         <mxCell id="IJ8glEBlVoeCYBbPqMMJ-431" value="Yes" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;gradientDirection=south;strokeColor=#82b366;" vertex="1" parent="IJ8glEBlVoeCYBbPqMMJ-400">
           <mxGeometry x="660" y="100" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-432" value="Dataset pools are added to a list and can be selected to add or edit subject data for the selected pool" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#97D077;" vertex="1" parent="IJ8glEBlVoeCYBbPqMMJ-400">
+        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-432" value="A UI is created that allows Docs data to be added/edited/deleted to the Docs high level folder" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#97D077;" vertex="1" parent="IJ8glEBlVoeCYBbPqMMJ-400">
           <mxGeometry x="580" y="160" width="200" height="70" as="geometry" />
         </mxCell>
         <mxCell id="IJ8glEBlVoeCYBbPqMMJ-433" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#000000;strokeWidth=1;fontColor=#000000;" edge="1" parent="IJ8glEBlVoeCYBbPqMMJ-400">
@@ -809,6 +809,14 @@
         <mxCell id="IJ8glEBlVoeCYBbPqMMJ-442" value="No" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;gradientDirection=south;strokeColor=#b85450;" vertex="1" parent="IJ8glEBlVoeCYBbPqMMJ-400">
           <mxGeometry x="800" y="40" width="40" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-466" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;strokeWidth=1;fontColor=#000000;" edge="1" parent="IJ8glEBlVoeCYBbPqMMJ-400" target="IJ8glEBlVoeCYBbPqMMJ-467">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="340" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-467" value="No" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;gradientDirection=south;strokeColor=#b85450;" vertex="1" parent="IJ8glEBlVoeCYBbPqMMJ-400">
+          <mxGeometry x="820" y="320" width="40" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="IJ8glEBlVoeCYBbPqMMJ-443" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;strokeWidth=1;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="IJ8glEBlVoeCYBbPqMMJ-291" target="IJ8glEBlVoeCYBbPqMMJ-403">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -823,6 +831,23 @@
             <mxPoint x="2870" y="810" as="sourcePoint" />
             <mxPoint x="2920" y="760" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-469" value="The folder structuring of Guided Mode is now complete. The next section is the dataset metadata section." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientDirection=south;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3700" y="700" width="240" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-470" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#000000;strokeWidth=1;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="IJ8glEBlVoeCYBbPqMMJ-442" target="IJ8glEBlVoeCYBbPqMMJ-469">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3660" y="700" />
+              <mxPoint x="3660" y="738" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-471" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;strokeWidth=1;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="IJ8glEBlVoeCYBbPqMMJ-432" target="IJ8glEBlVoeCYBbPqMMJ-469">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IJ8glEBlVoeCYBbPqMMJ-472" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#000000;strokeWidth=1;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="IJ8glEBlVoeCYBbPqMMJ-467" target="IJ8glEBlVoeCYBbPqMMJ-469">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

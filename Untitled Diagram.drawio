@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-03-01T22:26:37.218Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="tq7cbxkWuA3rnqqfZLVI" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-02T06:42:03.243Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="flKDaNBcDmX9wDKudkbj" version="20.8.23" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="10760" dy="10190" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="8710" dy="7330" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="gbFuB_QFhwwYaBKDZ-aa-239" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-10" y="200" width="5380" height="2050" as="geometry" />
+        </mxCell>
         <mxCell id="IJ8glEBlVoeCYBbPqMMJ-51" value="Name and subtitle page&lt;br&gt;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="550" y="640" width="280" height="400" as="geometry" />
         </mxCell>
@@ -231,7 +234,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IJ8glEBlVoeCYBbPqMMJ-393" value="UI is generated in the same manner as below, however, sample data organization is skipped as the dataset does not have any samples" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#ffcc99;strokeColor=#36393d;spacingTop=5;spacing=5;spacingRight=5;spacingBottom=5;spacingLeft=5;align=left;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1940" y="590" width="220" height="70" as="geometry" />
+          <mxGeometry x="2110" y="590" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="IJ8glEBlVoeCYBbPqMMJ-395" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;strokeColor=#000000;strokeWidth=1;fontColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="IJ8glEBlVoeCYBbPqMMJ-206" target="IJ8glEBlVoeCYBbPqMMJ-393" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -832,7 +835,7 @@
         <mxCell id="k9U3bBFIQiE5V_mnhXnz-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="k9U3bBFIQiE5V_mnhXnz-84" target="k9U3bBFIQiE5V_mnhXnz-102" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="k9U3bBFIQiE5V_mnhXnz-106" value="The Dataset Metadata portion of Guided Mode is now complete. The next section is the Pennsieve metadata section." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientDirection=south;strokeColor=#82b366;spacingTop=5;align=left;spacing=5;spacingRight=5;spacingBottom=5;spacingLeft=5;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="k9U3bBFIQiE5V_mnhXnz-106" value="The Pennsieve Metadata portion of Guided Mode is now complete. The dataset is now ready to be uploaded (or updated for the starting from Pennsieve flow)." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientDirection=south;strokeColor=#82b366;spacingTop=5;align=left;spacing=5;spacingRight=5;spacingBottom=5;spacingLeft=5;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="2470" y="1920" width="240" height="160" as="geometry" />
         </mxCell>
         <mxCell id="k9U3bBFIQiE5V_mnhXnz-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#A680B8;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="k9U3bBFIQiE5V_mnhXnz-107" target="k9U3bBFIQiE5V_mnhXnz-106" edge="1">
@@ -903,7 +906,7 @@
         <mxCell id="gbFuB_QFhwwYaBKDZ-aa-16" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;jumpStyle=arc;jumpSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="IJ8glEBlVoeCYBbPqMMJ-393">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2200" y="680" as="sourcePoint" />
-            <mxPoint x="2050" y="750" as="targetPoint" />
+            <mxPoint x="2220" y="750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IJ8glEBlVoeCYBbPqMMJ-168" value="Primary, Source, and&amp;nbsp; &amp;nbsp; Derivative folder structuring" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -1211,49 +1214,37 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gbFuB_QFhwwYaBKDZ-aa-188" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FF6666;gradientColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="180" y="240" width="690" height="40" as="geometry" />
+          <mxGeometry x="180" y="240" width="710" height="40" as="geometry" />
         </mxCell>
         <mxCell id="gbFuB_QFhwwYaBKDZ-aa-194" value="&lt;b&gt;Legend&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="180" y="240" width="690" height="40" as="geometry" />
+          <mxGeometry x="180" y="240" width="710" height="40" as="geometry" />
         </mxCell>
         <mxCell id="gbFuB_QFhwwYaBKDZ-aa-195" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="180" y="280" width="690" height="220" as="geometry" />
+          <mxGeometry x="180" y="280" width="710" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="gbFuB_QFhwwYaBKDZ-aa-196" value="Indicates the starting from scratch flow" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="290" y="340" width="580" height="30" as="geometry" />
+        <mxCell id="gbFuB_QFhwwYaBKDZ-aa-196" value="Indicates the logic flow for starting a dataset from scratch" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="290" y="340" width="600" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gbFuB_QFhwwYaBKDZ-aa-197" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;jumpStyle=arc;jumpSize=16;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="190" y="354.6" as="sourcePoint" />
-            <mxPoint x="240" y="355" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gbFuB_QFhwwYaBKDZ-aa-198" value="Indicates the starting from Pennsieve flow" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="290" y="370" width="580" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="gbFuB_QFhwwYaBKDZ-aa-199" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#A680B8;jumpStyle=arc;jumpSize=16;fontSize=12;fillColor=#fff2cc;fontStyle=1;startSize=23;gradientColor=#ffd966;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="190" y="384.6" as="sourcePoint" />
-            <mxPoint x="240" y="385" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="gbFuB_QFhwwYaBKDZ-aa-198" value="Indicates the logic flow when editing a dataset on Pennsieve" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="290" y="370" width="600" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gbFuB_QFhwwYaBKDZ-aa-200" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#97D077;spacingTop=5;spacing=5;spacingRight=5;spacingBottom=5;spacingLeft=5;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="190" y="407.5" width="50" height="15" as="geometry" />
+          <mxGeometry x="190" y="407.5" width="90" height="15" as="geometry" />
         </mxCell>
         <mxCell id="gbFuB_QFhwwYaBKDZ-aa-201" value="Indicates user interfaces provided during the guided workflow" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="290" y="400" width="580" height="30" as="geometry" />
+          <mxGeometry x="290" y="400" width="600" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gbFuB_QFhwwYaBKDZ-aa-202" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#FFCE9F;spacingTop=5;spacing=5;spacingRight=5;spacingBottom=5;spacingLeft=5;align=left;gradientColor=#CCCCFF;gradientDirection=south;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="190" y="437.5" width="50" height="15" as="geometry" />
+          <mxGeometry x="190" y="437.5" width="90" height="15" as="geometry" />
         </mxCell>
         <mxCell id="gbFuB_QFhwwYaBKDZ-aa-203" value="Indicates actions pertaining to data fetched from Pennsieve for the Pennsieve start workflow" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="290" y="430" width="580" height="30" as="geometry" />
+          <mxGeometry x="290" y="430" width="600" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gbFuB_QFhwwYaBKDZ-aa-204" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#FFCCCC;spacingTop=5;spacing=5;spacingRight=5;spacingBottom=5;spacingLeft=5;align=left;gradientColor=none;gradientDirection=south;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="190" y="467.5" width="50" height="15" as="geometry" />
+          <mxGeometry x="190" y="467.5" width="90" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="gbFuB_QFhwwYaBKDZ-aa-205" value="Indicates a section of the guided workflow is skipped as the dataset data or metadata files are not required" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="290" y="460" width="580" height="30" as="geometry" />
+        <mxCell id="gbFuB_QFhwwYaBKDZ-aa-205" value="Indicates a page of the guided workflow being skipped as the dataset data or metadata files are not required" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="290" y="460" width="600" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gbFuB_QFhwwYaBKDZ-aa-207" value="Page Name" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="190" y="290" width="90" height="40" as="geometry">
@@ -1261,10 +1252,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gbFuB_QFhwwYaBKDZ-aa-227" value="Indicates a page in the Guided Mode workflow (logic related to the page found encompassed inside)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="290" y="295" width="580" height="30" as="geometry" />
+          <mxGeometry x="290" y="295" width="600" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gbFuB_QFhwwYaBKDZ-aa-230" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;jumpSize=16;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="IJ8glEBlVoeCYBbPqMMJ-432" target="IJ8glEBlVoeCYBbPqMMJ-469">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gbFuB_QFhwwYaBKDZ-aa-236" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#A680B8;jumpStyle=arc;jumpSize=16;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;strokeWidth=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="385" as="sourcePoint" />
+            <mxPoint x="280" y="385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gbFuB_QFhwwYaBKDZ-aa-238" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;jumpStyle=arc;jumpSize=16;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="355" as="sourcePoint" />
+            <mxPoint x="280" y="355" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
